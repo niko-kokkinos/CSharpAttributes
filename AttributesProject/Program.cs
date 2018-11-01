@@ -15,7 +15,7 @@ namespace AttributesProject
             FighterWriter fighterWriter = new FighterWriter(achilles);
             fighterWriter.Write();
 
-            Console.WriteLine("\n Demo ends. Good Bye");
+            Console.WriteLine("\n Demo ends. Good Bye :-) ");
         }
     }
 }
