@@ -7,6 +7,8 @@ namespace AttributesProject
     public class Fighter
     {
         public string Name { get; set; }
+
+        [Display("Belt: ", ConsoleColor.DarkRed)]
         public string BeltColor { get; set; }
     }
 }
