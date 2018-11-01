@@ -6,7 +6,16 @@ namespace AttributesProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Fighter achilles = new Fighter()
+            {
+                BeltColor = "Yellow",
+                Name = "Achilles"
+            };
+
+            FighterWriter fighterWriter = new FighterWriter(achilles);
+            fighterWriter.Write();
+
+            Console.WriteLine("\n Demo ends. Good Bye");
         }
     }
 }
